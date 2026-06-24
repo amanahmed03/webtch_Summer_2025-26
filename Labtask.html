@@ -1,0 +1,104 @@
+<html>
+<head>
+    <title>Inventory and Contact Form</title>
+ 
+    <style>
+        body {
+            font-family: "Times New Roman";
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+ 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+ 
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+ 
+        th {
+            background-color: gray;
+            color: white;
+        }
+ 
+        .contact {
+            width: 80%;
+            margin: 30px auto;
+            background-color: lightgreen;
+            padding: 20px;
+            border-radius: 15px;
+        }
+ 
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+ 
+        button {
+            padding: 8px 20px;
+        }
+    </style>
+</head>
+ 
+<body>
+ <h1 style="text-align: center;">
+    <b>Welcome to Pental Lab</b>
+ 
+    <p style="text-align:right; font-weight:normal;">
+    In this lab, you will learn basic HTML structure,
+    formatting text, creating simple tables, and using
+    forms for input.
+</p>
+    
+ 
+    <table>
+        <tr>
+            <th>Item Name</th>
+            <th>Quantity</th>
+            <th>Status</th>
+        </tr>
+ 
+        <tr>
+            <td>Pencils</td>
+            <td>100</td>
+            <td>In Stock</td>
+        </tr>
+ 
+        <tr>
+            <td>Notebooks</td>
+            <td>50</td>
+            <td>Low Stock</td>
+        </tr>
+ 
+        <tr>
+            <td>Markers</td>
+            <td>15</td>
+            <td>In Stock</td>
+        </tr>
+    </table>
+ 
+    <div class="contact">
+        <h2>Contact Information</h2>
+ 
+        <form>
+            Name:<br>
+            <input type="text"><br>
+ 
+            Email:<br>
+            <input type="email"><br>
+ 
+            Message:<br>
+            <textarea></textarea><br>
+ 
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+ 
+</body>
+</html>
+
